@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.801542">
+<testcase classname="Cargo Shipping Cost Calcuation" name="Cargo Shipping Cost Calculation Test Scenario" time="31.801542">
+<system-out><![CDATA[Given The application URL is launched.......................................passed
+When Various "rahulkoolnsmart@gmail.com" and "9051514014" is given to login.passed
+Then Login successful.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

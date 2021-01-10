@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Cargo Shipping Cost Calculation Test Scenario",
+        "description": "",
+        "id": "cargo-shipping-cost-calcuation;cargo-shipping-cost-calculation-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 29257454800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The application URL is launched",
+            "match": {
+              "location": "CucumberTestStepDefination.launchFacebook()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 544403700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Various \"rahulkoolnsmart@gmail.com\" and \"9051514014\" is given to login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "rahulkoolnsmart@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "9051514014",
+                  "offset": 41
+                }
+              ],
+              "location": "CucumberTestStepDefination.enterCredentials(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1999683300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Login successful",
+            "match": {
+              "location": "CucumberTestStepDefination.login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cargo Shipping Cost Calcuation",
+    "description": "",
+    "id": "cargo-shipping-cost-calcuation",
+    "keyword": "Feature",
+    "uri": "C:/Users/rahul/eclipse-workspace/test/src/main/java/com/qa/features/Shipping.feature"
+  }
+]
